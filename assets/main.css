@@ -13,6 +13,7 @@ h4 {
 h6 {
     background: #40BAD2;
     padding: 0.5em;
+    margin-bottom: 0.5em;
     font-size: 1em;
 }
 
@@ -57,7 +58,7 @@ header {
 }
 
 main > section {
-    height: 100vh;
+    min-height: 600px;
     position: relative;
 }
 
@@ -120,19 +121,19 @@ nav > img {
 
 .container {
     margin-top: 4em;
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .infoBox {
-    padding: 0.5em;
+    padding: 1em;
     box-sizing: border-box;
-    background: #40BAD2;
-    width: 30%;
+    /* background: #40BAD2; */
+    width: 100%;
+    margin: 1em 0;
     text-align: justify;
     font-size: 1em;
-    /* list-style-type: circle; */
 }
 
 .countBox {
@@ -169,5 +170,9 @@ nav > img {
     text-align: center;
     width: 100%;
     margin: 2em auto;
+}
+
+div > li {
+    list-style-type: square;
 }
 
